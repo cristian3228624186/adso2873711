@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css</title>
     <link rel="stylesheet" href="css/master.css">
+    <style>
+        div.menus {
+            display: flex;
+            gap: 1rem;
+        }
+        @media screen and (max-width: 580px) {
+            div.menus {
+                flex-direction: column;
+            }  
+        }
+    </style>
 </head>
 <body>
     <nav class="controls">
@@ -17,7 +28,9 @@
             <h1>CSS</h1>
             <h2>Lenguaje utilizados para crear estilo a una página Web</h2>
         </header>
+        <div class="menus">
         <menu>
+            <h3>REFERENCE 2.1</h3>
             <a href="01-estilos-en-el-documento.html">
                 <i>01</i>
                 <span>Estilos en el documento</span>
@@ -115,6 +128,34 @@
                 <span>Challengue</span>
             </a>
         </menu>
+        <menu>
+            <h3>REFERENCE 3</h3>
+            <a href="25-new-señectors.html">
+                <i>25</i>
+                <span>New Selectors</span>
+            </a>
+            <a href="26-border-radius.html">
+                <i>26</i>
+                <span>Borderr Radius</span>
+            </a>
+            <a href="27-box-shadow.html">
+                <i>27</i>
+                <span>Box Shadow</span>
+            </a>
+            <a href="28-challengue-shadow.html">
+                <i>28</i>
+                <span>Challengue Shadow</span>
+            </a>
+            <a href="29-new-backgrounds.html">
+                <i>29</i>
+                <span>New Backgrounds</span>
+            </a>
+            <a href="30-text-shadow.html">
+                <i>30</i>
+                <span>Text Shadow</span>
+            </a>
+        </menu>
+    </div>
     </main>
 </body>
 </html>
