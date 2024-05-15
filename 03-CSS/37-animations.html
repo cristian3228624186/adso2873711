@@ -6,21 +6,43 @@
     <title>animations</title>
     <link rel="stylesheet" href="css/master.css">
     <style>
-        section img {
+        div.fondo {
+            background: url(images/fight-background.jpg) no-repeat ;
+            width: 600px;
+            height: 400px;
+            transform: scale(1);
+        }
+        div.esmeralda {
             position: relative;
-            top: 0;
+            top: 35px;
+            left: 300px;
+            width: 100px;
+        }
+        div.elementos{
+            position: relative;
+            top: 120px;
             left: 0;
-            animation: 4s animPatricio linear infinite;
+            width: 100px;
         }
-        section img.Patricio{
-            animation: 4s;
+        div.esmeralda{
+            animation: 2s animfuego linear infinite;
+    
         }
-        @keyframes animPatricio {
-            0%    { left: 0px;   transforms: rotate(0deg);}
-            50%   { left: 300px; transforms: rotate(0deg);}
-            55%   { left: 300px; transforms: rotate(360deg);}
-            80%   { left: 300px; transforms: rotate(0deg);}
-            100%  { left: 0px;   transforms: rotate(0deg);}
+        @keyframes animfuego{
+            0%   {transform: translateX(0px)    rotate(0);}
+            50%  {transform: translateX(-100px) rotate(0);}
+            55%  {transform: translateX(-100px) rotate(180deg);}
+            60%  {transform: translateX(0px)    rotate(180deg);}
+            70%  {transform: translateX(0px)    rotate(180deg);}
+            100% {transform: translateX(0px)    rotate(10deg);}
+        }
+        div.elementos{
+            animation: 2s animtierra linear infinite;
+        }
+        @keyframes animtierra{
+            0%   {transform: translateX(0);}
+            50%  {transform :translateX(100px);}
+            100% {transform: translateX(100px);}
         }
     </style>
 </head>
@@ -39,11 +61,15 @@
          </header>
         <section>
             <h3>Ejemplo:</h3>
-            <img class="Patricio" src="images/Patricio.webp" width="120px">
-            <div>
-                <img src="images/fondo-de-bikini.jpg" alt="">
+            <div class="fondo"> 
+                <div class="elementos">
+                    <img src="images/Elementos_2.webp" width="100px">
+                </div>
+                <div class="esmeralda">
+                   <img src="images/Esmeralda_3.png" width="100px">
+                </div>
             </div>
         </section>
-    </main>     
+    </main>
 </body>
 </html>
