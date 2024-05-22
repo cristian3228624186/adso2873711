@@ -1,16 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;800&display=swap');
 
 body{
-    background-color: #4685af;
+
     background-color: #3771EA;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='67' height='67' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23000' fill-opacity='0.29' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
-    background-attachment: fixed;
-    background-size: cover;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: Poppins, sans-serif;
-    color:black;
-
+    
 }
 nav.controls {
     a:is(:link, :visited) {
