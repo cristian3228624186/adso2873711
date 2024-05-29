@@ -8,10 +8,10 @@ main ul.colors li {
   border: thin solid rgba(0, 0, 0, 0.2);
   display: inline-block;
   margin: 0px;
-  height: 280px;
+  height: 290px;
   transition: all 0.2s ease;
   vertical-align: top;
-  width: 80px;
+  width: 61px;
   /* Ciclos */
 }
 main ul.colors li:nth-child(1) {

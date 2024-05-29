@@ -1,7 +1,7 @@
 body h1 {
   font-size: 3em;
   background: linear-gradient(to top, #333 30%, #d94d9b);
-  background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 40px auto;
   text-align: center;
