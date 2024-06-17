@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grids</title>
+    <title>Floating Labels</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/master.css">
 </head>
@@ -15,25 +15,19 @@
     </nav>
     <main>
         <header>
-            <h1>Grids</h1>
-            <h2>Utilice nuestra poderosa cuadrícula flexbox para dispositivos móviles para crear diseños de todas las formas y tamaños gracias a un sistema de doce columnas</h2>
+            <h1>Floating Labels</h1>
+            <h2>Cree etiquetas de formulario maravillosamente simples que floten sobre sus campos de entrada.</h2>
         </header>
         <section class="content">
-            <h3 class="mb-2">Auto-Layout colums</h3>
-            <div class="container text-center">
-                <div class="row">
-                  <div class="col border p-2 bg-success">
-                    Column
-                  </div>
-                  <div class="col border p-2 bg-danger">
-                    Column
-                  </div>
-                  <div class="col border p-2 bg-success">
-                    Column
-                  </div>
-                </div>
+            <h3 class="my-4">Example:</h3>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
               </div>
-
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Password</label>
+            </div>
         </section>
     </main>
 </body>
