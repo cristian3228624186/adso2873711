@@ -74,6 +74,9 @@ menu{
     padding: 0;
     gap: 1rem;
 
+    h3{
+        color: white;
+    }
 
 
     a:is(:link, :visited) {

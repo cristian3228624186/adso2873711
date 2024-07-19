@@ -35,7 +35,7 @@ main{
         flex-direction: column;
         align-items: center;
         h1, h2 {
-            color:black;
+            color:rgb(255, 255, 255);
             text-align: center;
             margin: 0;
         }
@@ -61,7 +61,7 @@ main{
         img{
             border-radius: 90%;
             width: 170px;
-            border: 5px solid rgb(0, 0, 0);
+            border: 5px solid rgb(255, 255, 255);
         }
     }
 }
@@ -71,14 +71,17 @@ menu{
     flex-direction: column;
     padding: 0;
     gap: 1rem;
-
+    
+    h3{
+        color: white;
+    }
 
 
     a:is(:link, :visited) {
         background-color:aliceblue;
         border-radius: 50px;
         display: flex;
-        color: #000000
+        color: #757575
         ;
         gap: 1rem;
         align-items: center;
@@ -103,19 +106,19 @@ menu{
     }
     
     a:is(:hover) {
-        transform: scale(1.4) translate(-10PX);
+        transform: scale(1.1) translate(-10PX);
         background-color: #000c;
     }
 
     a:is(:hover) i{
-        transform: scale(1.4) rotatex(360deg);
+        transform: scale(1.1) rotatex(360deg);
 
     }
 }    
 section {
     border-radius: 10px;
     background-color: #fff9;
-    color: #0009;
+    color: rgba(255, 255, 255, 0.6);
     padding: 10px;
     width: 400px;
     h3 {
